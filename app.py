@@ -16,7 +16,7 @@ VERIFY_TOKEN = "nigam_1234"
 # Aapka ACCESS_TOKEN public ho chuka hai.
 # Kripya ise turant Meta Dashboard se RESET karein!
 # Ise code mein aise direct likhna unsafe hai. Environment variables ka istemaal karein.
-ACCESS_TOKEN = "EAA1O6ZBHz3rcBPyL5dZAB4o4CyR1GS80py4ENZAJOfYA3flJh88ETGRRXHlJrKkmgFn2mIB04EhJ7edvbjfFNxpiDhaFpQgQlCvocZBFjnDYFZCmAyuPr7w4hEuvZCbJnM8teNJIZA7SerLJymODtvrOHyjsAgwlt1aanmZCwsowNZCJsGLdlXi6hIGyZCJMR0X7NhbvukcYc6v8k32kyQSyzVm8iDmdMZA1BgI38D7Agoor49fggZDZD"
+ACCESS_TOKEN = "EAA1O6ZBHz3rcBP7jhSpilg6puVc3BI5LPqiKalZB8PWmFuAR9OYrbYaQTu8bGxiYS7wzAYqyBPIORNZCZB6e4jIAllkz7J07s4ITaZCDPJwSusE55Kp5AzlgN6bY63twte6JvyY6YslXQcihOCIfNyLOv60lQrV2fKRxngsTgZBmvUTCqZBjQT4xWTI4Ka50xex2sPFAE5rGZCewBuoPRGx2TzOpA54R4u6q74ywZAPSfBdH37wZDZD"
 PHONE_ID = "865232840000202"
 # --- End of Warning ---
 
@@ -115,3 +115,4 @@ if __name__ == '__main__':
         app.logger.error(f"❌ Could not initialize ai_logic. Did you run db_setup.py?\nError: {e}")
         
     app.run(port=5000, debug=True) 
+
